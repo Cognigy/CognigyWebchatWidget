@@ -14,6 +14,9 @@ interface IAdaptiveCardProps {
 
 // it's designed to be used as a signleton instance, following their documentation
 const md = new Remarkable();
+// enables abbrevations
+// https://michelf.ca/projects/php-markdown/extra/#abbr
+md.core.ruler.enable(['abbr']);
 
 /**
  * Manually add Support for rending Markdown, as described here:
