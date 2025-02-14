@@ -52,7 +52,7 @@
     "adaptivecards": "^2.10.0",
     "axios": "1.7.4",
     "cypress-real-events": "^1.7.0",
-    "dompurify": "2.5.4",
+    "dompurify": "3.2.4",
     "flatpickr": "4.6.3",
     "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.21",
